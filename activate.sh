@@ -7,6 +7,7 @@ GREEN='\033[0;32m'
 BLUE='\033[0;34m'
 RED='\033[0;31m'
 YELLOW='\033[1;33m'
+CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 # Detect if the script is being sourced or executed
@@ -60,6 +61,7 @@ echo -e "${BLUE}📋 Available commands:${NC}"
 echo "  python -m pytest tests/          # Run all tests"
 echo "  python run_tests.py              # Run all tests (alternative)"
 echo "  python src/cli.py --help         # Show CLI help"
-echo "  ./run_streamlit.sh               # Run the Streamlit web app"
+echo -e "${CYAN}  For the best User experience, use the Streamlit app:${NC}"
+echo -e "  ./run_streamlit.sh                # Run the Streamlit web app"
 echo ""
 echo -e "${YELLOW}💡 To deactivate the virtual environment, type: deactivate${NC}"
