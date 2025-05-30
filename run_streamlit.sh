@@ -13,6 +13,7 @@ GREEN='\033[0;32m'
 BLUE='\033[0;34m'
 RED='\033[0;31m'
 YELLOW='\033[1;33m'
+ORANGE='\033[38;5;208m'
 NC='\033[0m' # No Color
 
 echo -e "${BLUE}🚀 Australian Business Names Streamlit App Launcher${NC}"

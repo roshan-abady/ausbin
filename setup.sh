@@ -64,6 +64,7 @@ echo "  python -m pytest tests/ -v       # Run unit tests"
 echo "  python cli.py search --help       # CLI help"
 echo "  python cli.py search --status 'Registered' --display chart"
 echo "  python cli.py similar 'ACME PTY LTD' --limit 10"
-echo -e "${CYAN}  For the best User experience, use the Streamlit app:${NC}"
+ORANGE='\033[38;5;208m'
+echo -e "${ORANGE}  For the best User experience, use the Streamlit app:${NC}"
 echo "  ./run_streamlit.sh                # Run the Streamlit web app"
 echo ""

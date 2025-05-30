@@ -13,6 +13,8 @@ BLUE='\033[0;34m'
 RED='\033[0;31m'
 YELLOW='\033[1;33m'
 PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+ORANGE='\033[38;5;208m'
 NC='\033[0m' # No Color
 
 echo -e "${BLUE}🚀 Australian Business Names CLI Launcher${NC}"
@@ -65,7 +67,7 @@ if [ $# -eq 0 ]; then
     echo -e "   ./run_cli.sh --help"
     echo ""
     echo -e "${BLUE}📘 For more details, see CLI_GUIDE.md${NC}"
-    echo -e "${CYAN}  For the best User experience, use the Streamlit app:${NC}"
+    echo -e "${ORANGE}  For the best User experience, use the Streamlit app:${NC}"
     echo -e "  ./run_streamlit.sh                # Run the Streamlit web app"
 fi
 
