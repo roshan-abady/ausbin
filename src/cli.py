@@ -1,4 +1,7 @@
+# Author: Roshan Abady
 # cli.py - Enhanced with proper visualizations
+# AUSBIN - Australian Business Names Register CLI
+
 import click
 import pandas as pd
 import numpy as np
@@ -41,7 +44,7 @@ console = Console()
 
 class BusinessNamesCLI:
     """
-    Enterprise-grade command line utility for Australian Business Names Register
+    Enterprise-grade command line utility for AUSBIN - Australian Business Names Register
     
     Provides filtering, visualization, and similarity matching capabilities
     for business intelligence and data exploration workflows.

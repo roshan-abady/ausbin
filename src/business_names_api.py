@@ -1,4 +1,7 @@
+# Author: Roshan Abady
 # business_names_api.py
+# AUSBIN - Australian Business Names Register API
+
 import requests
 import logging
 from typing import Dict, List, Optional, Union
@@ -27,7 +30,7 @@ class BusinessNamesAPIError(Exception):
 
 class BusinessNamesAPI:
     """
-    Production-ready client for accessing Australian Business Names Register API
+    Production-ready client for accessing AUSBIN - Australian Business Names Register API
     
     Implements robust error handling, retry mechanisms, and rate limiting
     for enterprise-grade data pipeline integration.

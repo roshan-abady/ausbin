@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# run_streamlit.sh - Launch Australian Business Names Streamlit App
+# Author: Roshan Abady
+# run_streamlit.sh - Launch AUSBIN - Australian Business Names Streamlit App
 
 # Set script directory and app path
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -16,7 +17,7 @@ YELLOW='\033[1;33m'
 ORANGE='\033[38;5;208m'
 NC='\033[0m' # No Color
 
-echo -e "${BLUE}🚀 Australian Business Names Streamlit App Launcher${NC}"
+echo -e "${BLUE}🚀 AUSBIN - Australian Business Names Streamlit App Launcher${NC}"
 echo "=================================================="
 
 # Check if the Streamlit app file exists

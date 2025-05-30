@@ -1,5 +1,7 @@
 #!/bin/bash
+# Author: Roshan Abady
 # activate.sh - Activates the virtual environment for the current shell session
+# AUSBIN - Australian Business Names Virtual Environment Activator
 # NOTE: This script must be sourced, not executed: source activate.sh
 
 # Add colors for better readability

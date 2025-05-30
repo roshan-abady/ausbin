@@ -1,7 +1,9 @@
 #!/bin/bash
+# Author: Roshan Abady
 # setup.sh - Fixed paths
+# AUSBIN - Australian Business Names CLI Tool (Python 3)
 
-echo "🚀 Setting up Australian Business Names CLI Tool (Python 3)..."
+echo "🚀 AUSBIN - Australian Business Names CLI Tool (Python 3)..."
 
 # Check Python 3 installation
 if ! command -v python3 &> /dev/null; then

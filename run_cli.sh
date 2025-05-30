@@ -1,5 +1,7 @@
 #!/bin/bash
+# Author: Roshan Abady
 # run_cli.sh - Script to run the CLI tool with proper environment settings
+# AUSBIN - Australian Business Names CLI Launcher
 
 # Set script directory and app path
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -17,7 +19,7 @@ CYAN='\033[0;36m'
 ORANGE='\033[38;5;208m'
 NC='\033[0m' # No Color
 
-echo -e "${BLUE}🚀 Australian Business Names CLI Launcher${NC}"
+echo -e "${BLUE}🚀 AUSBIN - Australian Business Names CLI Launcher${NC}"
 echo "=================================================="
 
 # Check if the CLI app file exists
