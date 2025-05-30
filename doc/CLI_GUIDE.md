@@ -1,4 +1,5 @@
-# Australian Business Names CLI Guide
+# Author: Roshan Abady
+# AUSBIN - Australian Business Names CLI Guide
 
 This guide explains how to use the Command Line Interface (CLI) for the Australian Business Names API toolkit.
 

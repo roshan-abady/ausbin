@@ -1,3 +1,6 @@
+# Author: Roshan Abady
+# AUSBIN - Australian Business Names Project
+
 # Australian Business Names API Toolkit
 
 A Python toolkit for accessing and analyzing Australian Business Names registry data.

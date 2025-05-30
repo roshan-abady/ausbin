@@ -1,4 +1,5 @@
-# Australian Business Names Streamlit App Guide
+# Author: Roshan Abady
+# AUSBIN - Australian Business Names Streamlit Guide
 
 This guide explains how to use the Streamlit web application for exploring the Australian Business Names registry.
 
