@@ -4,8 +4,7 @@
 # run_streamlit.sh - Launch AUSBIN - Australian Business Names Streamlit App
 
 # Set script directory and app path
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_DIR="/Users/Roshan.Abady/Dev/ausbiz"
+PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 STREAMLIT_APP="$PROJECT_DIR/src/streamlit_app.py"
 VENV_PATH="$PROJECT_DIR/venv"
 
