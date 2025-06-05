@@ -49,7 +49,7 @@ python tests/integration_test.py
 
 # Test CLI functionality
 echo "Testing CLI functionality..."
-python cli.py --help
+python src/cli.py --help
 
 echo "✅ Setup complete!"
 echo ""

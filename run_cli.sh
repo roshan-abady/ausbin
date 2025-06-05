@@ -4,8 +4,7 @@
 # AUSBIN - Australian Business Names CLI Launcher
 
 # Set script directory and app path
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_DIR="/Users/Roshan.Abady/Dev/ausbiz"
+PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CLI_APP="$PROJECT_DIR/src/cli.py"
 VENV_PATH="$PROJECT_DIR/venv"
 
